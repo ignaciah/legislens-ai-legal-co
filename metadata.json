@@ -1,0 +1,6 @@
+{
+  "name": "LegisLens - AI-Native Legal Co-Pilot",
+  "description": "Production MVP and XPRIZE submission platform for LegisLens AI legal co-pilot, featuring 5-agent orchestration with Gemini 3.5 Flash/Pro, Stripe subscription infrastructure, real-time decision telemetry, interactive architecture diagram, and submission media studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
