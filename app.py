@@ -389,7 +389,7 @@ with tab3:
         st.success("✅ Database: Active")
     
     st.divider()
-    st.caption(f"🆔 Session ID: {st.session_id}")
+    st.caption("⚖️ LegisLens - Build with Gemini XPRIZE | AI-Native Legal Co-Pilot")
 
 # ============================================
 # FOOTER
