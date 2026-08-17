@@ -6,3 +6,30 @@ coverage/
 *.log
 .env*
 !.env.example
+services:
+  - type: web
+    name: legislens
+    runtime: python
+    repo: https://github.com/your-username/legislens-xprize
+    plan: free
+    region: oregon
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: STRIPE_PRICE_ID
+        sync: false
+
+Gitignore 
+
+venv/
+*.pyc
+__pycache__/
+.env
+.DS_Store
+*.log
+
+
